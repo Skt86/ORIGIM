@@ -340,6 +340,13 @@ header {
   header nav a {
     text-decoration: none;
     color: #22577A; }
+  header button {
+    position: absolute;
+    right: 50px; }
+  header img {
+    padding: 10px;
+    max-width: 141px;
+    height: auto; }
   header h1 {
     display: none;
     color: #22577A; }
