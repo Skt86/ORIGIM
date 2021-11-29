@@ -339,7 +339,8 @@ header {
   background: linear-gradient(to left, #38A3A5, #57CC99); }
   header nav a {
     text-decoration: none;
-    color: #22577A; }
+    color: #22577A;
+    font-weight: bold; }
   header button {
     position: absolute;
     right: 50px; }
