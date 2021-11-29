@@ -112,7 +112,7 @@ img     {
 /* PARTNERS */
 
 .main__partners {
-    background: url(../../images/fondo.png) center/cover no-repeat;
+    background: url(../images/fondo.png) center/cover no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -162,7 +162,7 @@ img     {
 
 @media  (min-width: 768px)  {
     .main__index    {
-        background: url(../../images/fondo.png) center/cover no-repeat;
+        background: url(../images/fondo.png) center/cover no-repeat;
         background-attachment: fixed;
         section    {
             display: flex;
@@ -175,7 +175,7 @@ img     {
     }
 
     .main__contact  {
-        background: url(../../images/Fondo.png) center/cover no-repeat;
+        background: url(../images/Fondo.png) center/cover no-repeat;
         background-attachment: fixed;
         .main__form {
             background-image: linear-gradient(to left, $clr-turquesa,$clr-oscuro);
@@ -184,7 +184,7 @@ img     {
     }
 
     .main__quienes  {
-        background: url(../../images/Fondo.png) center/cover no-repeat;
+        background: url(../images/Fondo.png) center/cover no-repeat;
         background-attachment: fixed;
         display: flex;
         flex-flow: column;
@@ -218,7 +218,7 @@ img     {
     }
 
     .main__red  {
-        background: url(../../images/fondo.png) center/cover no-repeat;
+        background: url(../images/fondo.png) center/cover no-repeat;
         background-attachment: fixed;
         display: flex;
         flex-direction: column;
