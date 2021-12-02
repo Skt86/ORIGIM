@@ -39,21 +39,6 @@ AZUL #22577A
     background: #22577A;
     height: 100vh; }
 
-/* TEXTO GENERAL */
-h1 {
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 0.07em; }
-
-h2 {
-  font-size: 1.6em;
-  text-transform: uppercase;
-  letter-spacing: 0.07em; }
-
-p {
-  font-size: 1.2em;
-  font-weight: 600; }
-
 /* FIX PARA IMAGENES */
 img {
   max-width: 100%;
@@ -190,7 +175,7 @@ img {
 
 @media (min-width: 768px) {
   .main__index {
-    background: url(../images/fondo.png) center/cover no-repeat;
+    background: url(../images/fondo.webp) center/cover no-repeat;
     background-attachment: fixed; }
     .main__index section {
       display: flex;
@@ -200,13 +185,13 @@ img {
       padding: 3em;
       width: 70%; }
   .main__contact {
-    background: url(../images/Fondo.png) center/cover no-repeat;
+    background: url(../images/fondo.webp) center/cover no-repeat;
     background-attachment: fixed; }
     .main__contact .main__form {
       background-image: linear-gradient(to left, #38A3A5, #57CC99);
       width: 70%; }
   .main__quienes {
-    background: url(../images/Fondo.png) center/cover no-repeat;
+    background: url(../images/fondo.webp) center/cover no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-flow: column;
@@ -235,7 +220,7 @@ img {
         align-items: center;
         padding-bottom: 4em; }
   .main__red {
-    background: url(../images/fondo.png) center/cover no-repeat;
+    background: url(../images/fondo.webp) center/cover no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -273,6 +258,8 @@ img {
         width: 400px;
         height: 400px; }
   .main__partners {
+    background: url(../images/fondo.webp) center/cover no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,7 +282,7 @@ img {
           height: auto; }
     .main__partners .section__partners-card:hover {
       transform: scale(1.2);
-      background-image: radial-gradient(#38A3A5, #22577A);
+      background: #ffff;
       transition: 1s; } }
 
 footer {
@@ -378,3 +365,19 @@ header {
     transform: scale(1.2); }
   header h1 {
     display: block; } }
+
+/* TEXTO GENERAL */
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07rem;
+  font-weight: bolder; }
+
+h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07rem; }
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600; }

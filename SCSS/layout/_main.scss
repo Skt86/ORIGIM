@@ -170,8 +170,7 @@ img     {
 
 @media  (min-width: 768px)  {
     .main__index    {
-        background: url(../images/fondo.png) center/cover no-repeat;
-        background-attachment: fixed;
+        @include bg-img;
         section    {
             display: flex;
             flex-direction: row;
@@ -183,8 +182,7 @@ img     {
     }
 
     .main__contact  {
-        background: url(../images/Fondo.png) center/cover no-repeat;
-        background-attachment: fixed;
+        @include bg-img;
         .main__form {
             background-image: linear-gradient(to left, $clr-turquesa,$clr-oscuro);
             width: 70%;
@@ -192,8 +190,7 @@ img     {
     }
 
     .main__quienes  {
-        background: url(../images/Fondo.png) center/cover no-repeat;
-        background-attachment: fixed;
+        @include bg-img;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -226,8 +223,7 @@ img     {
     }
 
     .main__red  {
-        background: url(../images/fondo.png) center/cover no-repeat;
-        background-attachment: fixed;
+        @include bg-img;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -272,6 +268,7 @@ img     {
     }
 
     .main__partners {
+        @include bg-img;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -297,7 +294,7 @@ img     {
         }
         .section__partners-card:hover    {
             transform: scale(1.2);
-            background-image: radial-gradient($clr-turquesa, $clr-azul);
+            background: #ffff;
             transition: 1s;
             }
         }
