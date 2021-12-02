@@ -293,9 +293,10 @@ img     {
                 }
         }
         .section__partners-card:hover    {
+            border: 2px solid $clr-azul;
             transform: scale(1.2);
             background: #ffff;
-            transition: 1s;
+            transition: 0.8s;
             }
         }
 }

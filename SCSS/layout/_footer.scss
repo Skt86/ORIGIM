@@ -14,11 +14,16 @@ footer  {
     padding: 1em;
     background: $clr-oscuro;
     background: linear-gradient(to right, #38A3A5,#57CC99);
-        a  {
-            text-decoration: none;
-            color: $clr-azul;
-            text-transform: uppercase;
-            font-weight: bolder;
+    a  {
+        text-decoration: none;
+        color: $clr-azul;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    ul  {
+        li  {
+            padding-bottom: 5px;
+        }
     }
     .fade__footer  {
         display: none;

@@ -281,9 +281,10 @@ img {
           max-width: 40px;
           height: auto; }
     .main__partners .section__partners-card:hover {
+      border: 2px solid #22577A;
       transform: scale(1.2);
       background: #ffff;
-      transition: 1s; } }
+      transition: 0.8s; } }
 
 footer {
   width: 100%;
@@ -301,6 +302,8 @@ footer {
     color: #22577A;
     text-transform: uppercase;
     font-weight: bolder; }
+  footer ul li {
+    padding-bottom: 5px; }
   footer .fade__footer {
     display: none; }
   footer .redes__footer {
