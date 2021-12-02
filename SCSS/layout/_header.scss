@@ -14,6 +14,9 @@ header  {
         z-index: 1;
         background: $clr-oscuro;
         background: linear-gradient(to left, #38A3A5,#57CC99);
+        max-width: 1800px;
+        width: 100%;
+        margin: auto;
         nav    {            
             a   {
                 text-decoration: none;
