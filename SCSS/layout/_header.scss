@@ -7,6 +7,7 @@ $pd-headderfooter: 1em;
 
 
 header  {
+    @include mains;
         position: sticky;
         top: 0px;
         right: 0px;
@@ -20,10 +21,6 @@ header  {
                 color: $clr-azul;
                 font-weight: bold;
             }
-        }
-        button {
-            position: absolute;
-            right: 50px;
         }
         img {
             padding: 10px;
