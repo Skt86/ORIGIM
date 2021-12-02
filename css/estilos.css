@@ -61,6 +61,9 @@ img {
 
 /* INDEX */
 .main__index {
+  width: 100%;
+  max-width: 4000px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,28 +95,35 @@ img {
     text-align: center; }
 
 /* QUIENES SOMOS */
-.main__quienes .section__quienes {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-items: center;
-  align-items: center;
-  background-image: radial-gradient(#22577A, #38A3A5);
-  border-radius: var(--br-05);
-  padding: 1em 2em;
-  color: #ffff; }
-  .main__quienes .section__quienes .section__quienes-txt {
+.main__quienes {
+  width: 100%;
+  max-width: 4000px;
+  margin: auto; }
+  .main__quienes .section__quienes {
     display: flex;
     flex-flow: column nowrap;
     justify-items: center;
-    gap: 2em; }
-  .main__quienes .section__quienes .section__quienes-mision,
-  .main__quienes .section__quienes .section__quienes-vision {
-    display: flex;
-    flex-flow: column;
-    align-items: center; }
+    align-items: center;
+    background-image: radial-gradient(#22577A, #38A3A5);
+    border-radius: var(--br-05);
+    padding: 1em 2em;
+    color: #ffff; }
+    .main__quienes .section__quienes .section__quienes-txt {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-items: center;
+      gap: 2em; }
+    .main__quienes .section__quienes .section__quienes-mision,
+    .main__quienes .section__quienes .section__quienes-vision {
+      display: flex;
+      flex-flow: column;
+      align-items: center; }
 
 /* NUESTRA RED */
 .main__red {
+  width: 100%;
+  max-width: 4000px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,11 +140,14 @@ img {
     .main__red .section__red .section__red-btn {
       background-image: radial-gradient(#57CC99, #80ED99); }
     .main__red .section__red .section__red-map {
-      width: 400px;
+      width: auto;
       height: 400px; }
 
 /* PARTNERS */
 .main__partners {
+  width: 100%;
+  max-width: 4000px;
+  margin: auto;
   background: url(../images/fondo.png) center/cover no-repeat;
   background-attachment: fixed;
   display: flex;
@@ -168,6 +181,9 @@ img {
 
 /* CONTACTO */
 .main__contact {
+  width: 100%;
+  max-width: 4000px;
+  margin: auto;
   background-image: radial-gradient(#22577A, #38A3A5); }
   .main__contact .main__form {
     width: 100%; }
@@ -283,6 +299,9 @@ img {
       transition: 1s; } }
 
 footer {
+  width: 100%;
+  max-width: 4000px;
+  margin: auto;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -328,6 +347,9 @@ footer {
         height: auto; } }
 
 header {
+  width: 100%;
+  max-width: 4000px;
+  margin: auto;
   position: sticky;
   top: 0px;
   right: 0px;
@@ -339,9 +361,6 @@ header {
     text-decoration: none;
     color: #22577A;
     font-weight: bold; }
-  header button {
-    position: absolute;
-    right: 50px; }
   header img {
     padding: 10px;
     max-width: 141px;
