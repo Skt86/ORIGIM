@@ -4,6 +4,9 @@ $clr-turquesa: #38A3A5;
 $clr-azul: #22577A;
 $br-05: 0.5em;
 $pd-headderfooter: 1em;
+
+@import './mixin';
+
 /* FIX PARA IMAGENES */
 
 img     {
@@ -14,6 +17,7 @@ img     {
 /* INDEX */
 
 .main__index    {
+    @include mains;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +60,7 @@ img     {
 /* QUIENES SOMOS */
 
 .main__quienes  {
+    @include mains;
     .section__quienes   {
         display: flex;
         flex-flow: column nowrap;
@@ -84,6 +89,7 @@ img     {
 /* NUESTRA RED */
 
 .main__red  {
+    @include mains;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,6 +118,7 @@ img     {
 /* PARTNERS */
 
 .main__partners {
+    @include mains;
     background: url(../images/fondo.png) center/cover no-repeat;
     background-attachment: fixed;
     display: flex;
@@ -151,6 +158,7 @@ img     {
 /* CONTACTO */
 
 .main__contact  {
+    @include mains;
     background-image: radial-gradient($clr-azul,$clr-turquesa);
     .main__form    {
         width: 100%;
