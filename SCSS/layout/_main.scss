@@ -239,14 +239,14 @@ img     {
             display: flex;
             flex-flow: column wrap;
             align-items: center;
-            justify-content: center;
-            width: 80%;
+            width: 60%;
             background: none;
             .section__red-txt {
                 display: flex;
                 flex-flow: column nowrap;
+                align-items: center;
                 color: black;
-                width: 60%;
+                width: 100%;
                 padding: 2em;
                 margin: 2em;
                 background: linear-gradient(to left, $clr-verdeclaro,$clr-turquesa);
