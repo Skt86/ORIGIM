@@ -122,8 +122,12 @@ img {
     .main__red .section__red h2,
     .main__red .section__red p {
       color: #ffff; }
+    .main__red .section__red span {
+      color: #22577A; }
     .main__red .section__red .section__red-btn {
-      background-image: radial-gradient(#57CC99, #80ED99); }
+      background-image: radial-gradient(#57CC99, #80ED99);
+      width: 300px;
+      color: #ffff; }
     .main__red .section__red .section__red-map {
       width: auto;
       height: 400px; }
@@ -171,7 +175,8 @@ img {
   margin: auto;
   background-image: radial-gradient(#22577A, #38A3A5); }
   .main__contact .main__form {
-    width: 100%; }
+    width: 100%;
+    border-radius: 8px; }
 
 @media (min-width: 768px) {
   .main__index {

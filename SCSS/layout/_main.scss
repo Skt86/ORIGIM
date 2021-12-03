@@ -103,9 +103,14 @@ img     {
         h2,
         p {
             color: #ffff;
+        }
+        span    {
+            color: $clr-azul;
         }        
         .section__red-btn   {
             background-image: radial-gradient($clr-oscuro,$clr-verdeclaro);
+            width: 300px;
+            color: #ffff;
         }
         .section__red-map   {
             width: auto;
@@ -162,6 +167,7 @@ img     {
     background-image: radial-gradient($clr-azul,$clr-turquesa);
     .main__form    {
         width: 100%;
+        border-radius: 8px;
     }
 }
 
