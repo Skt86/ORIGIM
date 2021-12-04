@@ -124,8 +124,7 @@ img     {
 
 .main__partners {
     @include mains;
-    background: url(../images/fondo.png) center/cover no-repeat;
-    background-attachment: fixed;
+    @include bg-img;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -37,7 +37,8 @@ AZUL #22577A
     font-family: 'Montserrat', serif; }
   * body {
     background: #22577A;
-    height: 100vh; }
+    height: 100vh;
+    width: auto; }
 
 /* FIX PARA IMAGENES */
 img {
@@ -137,7 +138,7 @@ img {
   width: 100%;
   max-width: 4000px;
   margin: auto;
-  background: url(../images/fondo.png) center/cover no-repeat;
+  background: url(../images/fondo.webp) center/cover no-repeat;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
