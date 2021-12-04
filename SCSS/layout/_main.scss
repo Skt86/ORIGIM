@@ -106,18 +106,27 @@ img     {
         }
         span    {
             color: $clr-azul;
-        }        
+        }       
+        .section__red-txt    {
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            width: 80%;
+        } 
         .section__red-btn   {
             background-image: radial-gradient($clr-oscuro,$clr-verdeclaro);
-            width: 300px;
+            width: auto;
             color: #ffff;
         }
         .section__red-map   {
-            width: auto;
             height: 400px;
+            width: 80%;
+            iframe  {
+                width: 100%;
+                height: 100%;
+            }
         }
     }
-
 }
 
 /* PARTNERS */

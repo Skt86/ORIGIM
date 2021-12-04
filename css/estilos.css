@@ -125,13 +125,21 @@ img {
       color: #ffff; }
     .main__red .section__red span {
       color: #22577A; }
+    .main__red .section__red .section__red-txt {
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+      width: 80%; }
     .main__red .section__red .section__red-btn {
       background-image: radial-gradient(#57CC99, #80ED99);
-      width: 300px;
+      width: auto;
       color: #ffff; }
     .main__red .section__red .section__red-map {
-      width: auto;
-      height: 400px; }
+      height: 400px;
+      width: 80%; }
+      .main__red .section__red .section__red-map iframe {
+        width: 100%;
+        height: 100%; }
 
 /* PARTNERS */
 .main__partners {
