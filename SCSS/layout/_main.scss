@@ -39,11 +39,13 @@ img     {
         }
     }
     .main__noticias {
-        flex-direction: row-reverse;
+        flex-direction: column;
         border: 2px solid #ffff;
+        padding: 2em;
         img    {
-            width: 50%;
+            width: 80%;
             padding-left: 10px;
+            padding-bottom: 10px;
         }
     }
     .carousel-item,
@@ -192,6 +194,14 @@ img     {
             justify-content: center;
             padding: 3em;
             width: 70%;
+        }
+        .main__noticias {
+            flex-direction: row-reverse;
+            img    {
+                width: 50%;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
         }
     }
 

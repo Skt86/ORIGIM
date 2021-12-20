@@ -67,11 +67,13 @@ img {
     font-weight: bolder;
     padding-bottom: 20px; }
   .main__index .main__noticias {
-    flex-direction: row-reverse;
-    border: 2px solid #ffff; }
+    flex-direction: column;
+    border: 2px solid #ffff;
+    padding: 2em; }
     .main__index .main__noticias img {
-      width: 50%;
-      padding-left: 10px; }
+      width: 80%;
+      padding-left: 10px;
+      padding-bottom: 10px; }
   .main__index .carousel-item,
   .main__index .carousel-inner,
   .main__index .carousel-inner img {
@@ -198,6 +200,12 @@ img {
       justify-content: center;
       padding: 3em;
       width: 70%; }
+    .main__index .main__noticias {
+      flex-direction: row-reverse; }
+      .main__index .main__noticias img {
+        width: 50%;
+        padding-left: 10px;
+        padding-bottom: 10px; }
   .main__contact {
     background: url(../images/fondo.webp) center/cover no-repeat;
     background-attachment: fixed; }
