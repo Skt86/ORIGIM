@@ -181,6 +181,25 @@ img     {
     }
 }
 
+/* 404 */
+
+.error__main {
+    @include mains;
+    background-image: radial-gradient($clr-azul,$clr-turquesa);
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    article {
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ffff;
+    }
+}
+
 
 
 
